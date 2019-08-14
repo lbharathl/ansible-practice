@@ -1,4 +1,7 @@
 ---
 - hosts: localhost
+  gather_facts: no
   tasks:
-  - ping:
+  - name:
+    ping:
+  
